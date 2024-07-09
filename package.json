@@ -2,11 +2,15 @@
   "scripts": {
     "dev": "govuk-prototype-kit dev",
     "serve": "govuk-prototype-kit serve",
-    "start": "govuk-prototype-kit start"
+    "start": "govuk-prototype-kit start",
+     "build": "govuk-prototype-kit build"
   },
   "dependencies": {
     "@govuk-prototype-kit/common-templates": "2.0.1",
     "govuk-frontend": "5.4.0",
     "govuk-prototype-kit": "13.16.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
