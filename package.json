@@ -7,7 +7,7 @@
     "start": "govuk-prototype-kit start",
     "dev": "govuk-prototype-kit dev",
     "serve": "govuk-prototype-kit serve",
-    "build": "govuk-prototype-kit build", // Add this line
+    "build": "govuk-prototype-kit build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   },
