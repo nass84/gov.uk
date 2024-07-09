@@ -1,0 +1,75 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Start page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for the start page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "#"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">Becki Floyd Portfolio</h1>
+
+      <p class="govuk-body">Hi, I'm Becki, a UX designer, researcher and AI training consultant with a passion for integrating AI into user experiences to enhance productivity and efficiency while prioritising ethical design.       <h2 class="govuk-heading-l">Services and Expertise</h2>
+            <ul class="govuk-list govuk-list--bullet">
+                
+              <li>      
+                <a class="govuk-link" href="/design">UX Design consultation</a>
+              </li>
+       
+              <li>      
+                <a class="govuk-link" href="/product">Product design and development</a>
+              </li>
+              <li>      
+                <a class="govuk-link" href="/training">Training workshops</a>
+              </li>
+            
+            </ul>
+            
+            <h2 class="govuk-heading-l">Currently Working On</h2>
+            <p class="govuk-body">Currently, I’m working with the NHS as a UX Designer and providing freelance training in AI and design tools to boost company productivity.</p>
+
+            <h2 class="govuk-heading-l">About Me</h2>
+            <p class="govuk-body">As a UX Designer with Front-end Development expertise, I blend empathy and creativity to address user challenges. A proud graduate of the School of Code Bootcamp, my strengths lie in User Research, UX Design, and coding with React & React Native. With prior experience in management at Citizens Advice and a keen knack for problem-solving, I add unique value to any development team.</p>
+            
+            <h2 class="govuk-heading-l">Get in Touch</h2>
+            <p class="govuk-body">Interested in working together? I offer consultations and training sessions tailored to your needs.</p>
+            
+            <a class="govuk-button" href="/contact">Book a Consultation</a>
+        
+            <p class="govuk-body">
+              <a class="govuk-link" href="mailto:beckifloyd@gmail.com?subject=Contact%20Becki%20Floyd">Email: beckifloyd@gmail.com</a>
+            </p>
+            <p class="govuk-body">
+              <a class="govuk-link" href="https://www.linkedin.com/in/nass84/" target="_blank">LinkedIn</a>
+            </p>
+            <p class="govuk-body">
+              <a class="govuk-link" href="https://twitter.com/boredinbrum" target="_blank">Twitter</a>
+            </p>
+      
+        </nav>
+      </aside>
+
+    </div>
+  </div>
+
+{% endblock %}

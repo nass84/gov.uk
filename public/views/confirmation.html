@@ -1,0 +1,40 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Confirmation – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      {{ govukPanel({
+        titleText: "Application complete",
+        html: "Your reference number<br><strong>HDJ2123F</strong>"
+      }) }}
+
+      <p class="govuk-body">
+        We have sent you a confirmation email.
+      </p>
+
+      <h2 class="govuk-heading-m">
+        What happens next
+      </h2>
+
+      <p class="govuk-body">
+        Your consultation request has been sent. We will review your request and contact you to discuss your needs and schedule a session.
+      </p>
+
+      <p class="govuk-body">
+        If you have any questions in the meantime, please feel free to <a href="mailto:beckifloyd@gmail.com?subject=Consultation%20Request">contact me</a>.
+      </p>
+
+      <p class="govuk-body">
+        <a href="#">What did you think of this service?</a> (takes 30 seconds)
+      </p>
+
+    </div>
+  </div>
+
+{% endblock %}

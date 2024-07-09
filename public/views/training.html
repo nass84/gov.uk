@@ -1,0 +1,98 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  My Training Sessions – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/index"
+      },
+      {
+        text: "Training",
+        href: "#"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-l">
+        My Training Sessions
+      </h1>
+
+      <p class="govuk-body">
+        I specialise in training teams on AI and design tools, such as Figma and Canva, to boost efficiency and productivity. My courses are tailored to all skill levels and industries, and I’m passionate about helping teams achieve real business outcomes.
+      </p>
+
+      <p class="govuk-body">
+        In May 2025, I spoke at UX Scotland, presenting “Using AI tools for user-centered design”
+      </p>
+
+      <blockquote class="govuk-body">
+        Feedback: Your talk was amazing! I really enjoyed it. I’ve always been a bit scared of AI, but your demonstration helped me understand it better. I also loved the design of your talk, especially the little gifts and activities. Overall, it was one of the best talks I’ve ever been to!
+      </blockquote>
+
+    
+      <h2 class="govuk-heading-m govuk-!-margin-top-6">
+      Training Sessions
+      </h2>
+
+      <h3 class="govuk-heading-s">Using AI Tools for User Centred Design</h3>
+      <p class="govuk-body">
+        Explore how AI can automate repetitive tasks, analyse user data with greater depth, and personalise user experiences. This session equips you with the knowledge to leverage AI and create exceptional products and services that truly resonate with your users.
+      </p>
+  
+      <p class="govuk-body">
+        <a class="govuk-link" href="https://uxscotland.net/programme/using-ai-tools-user-centered-design" target="_blank">Using AI tools for user-centered design</a>
+      </p>
+
+      <h3 class="govuk-heading-s govuk-!-margin-top-6">User Research Methods</h3>
+      <p class="govuk-body">
+        Gain practical knowledge on various user research methods through discussions, group activities, and card sorting exercises. This workshop covers essential techniques, benefits and drawbacks of different research approaches, and industry best practices.
+      </p>
+
+      <h3 class="govuk-heading-s govuk-!-margin-top-6">Six Thinking Hats Method: Unlocking Diverse Thinking for Better Product Evaluation</h3>
+      <p class="govuk-body">
+        Think creatively and critically about your product using the Six Thinking Hats Method. This workshop guides a comprehensive product evaluation, helping you gain a well-rounded understanding of your product's strengths, weaknesses, and opportunities.
+      </p>
+
+      <h3 class="govuk-heading-s govuk-!-margin-top-6">Design the Future You Imagine: A Transfeminist Tech Workshop with the Oracle</h3>
+      <p class="govuk-body">
+        Break free from current design practices and envision caring, inclusive, and empowering technologies. This workshop uses a unique card deck to spark creative ideas and apply feminist design principles, promoting equitable design practices.
+      </p>
+
+   
+      </p>
+      <h2 class="govuk-heading-l">How to Book a Consultation</h2>
+      <p class="govuk-body">To book a consultation, please contact me with details about your project and what you're looking to achieve. I will get back to you promptly to discuss your needs and schedule a session.</p>
+
+      <h2 class="govuk-heading-l">Get in Touch</h2>
+      <p class="govuk-body">Interested in working together? I offer consultations and training sessions tailored to your needs.</p>
+      
+      <a class="govuk-button" href="/contact">Book a Consultation</a>
+  
+      <p class="govuk-body">
+        <a class="govuk-link" href="mailto:beckifloyd@gmail.com?subject=Contact%20Becki%20Floyd">Email: beckifloyd@gmail.com</a>
+      </p>
+      <p class="govuk-body">
+        <a class="govuk-link" href="https://www.linkedin.com/in/nass84/" target="_blank">LinkedIn</a>
+      </p>
+      <p class="govuk-body">
+        <a class="govuk-link" href="https://twitter.com/boredinbrum" target="_blank">Twitter</a>
+      </p>
+
+    </div>
+  </div>
+
+{% endblock %}
