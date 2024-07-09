@@ -1,12 +1,13 @@
 {
   "name": "govuk-portfolio",
   "version": "1.0.0",
-  "description": "Portfolio built with GOV.UK Design system",
+  "description": "Your project description",
   "homepage": "https://nass84.github.io/gov.uk",
   "scripts": {
     "start": "govuk-prototype-kit start",
     "dev": "govuk-prototype-kit dev",
     "serve": "govuk-prototype-kit serve",
+    "build": "govuk-prototype-kit build", // Add this line
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public"
   },
