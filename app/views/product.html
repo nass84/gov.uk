@@ -1,0 +1,168 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  Product Design and Development – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block header %}
+  <!-- Blank header with no service name for this page -->
+  {{ govukHeader() }}
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/index"
+      },
+      {
+        text: "Product Design",
+        href: "#"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">
+        Product Design and Development
+      </h1>
+
+      <p class="govuk-body">
+        Welcome to the Product Design and Development page. Here you can find detailed case studies and projects that showcase my work in UX design, development, and research. Each project highlights specific challenges and the solutions implemented to enhance user experiences.
+      </p>
+
+      <aside class="govuk-prototype-kit-common-templates-mainstream-guide-contents-list" role="complementary">
+        <nav class="govuk-prototype-kit-common-templates-contents-list" aria-label="Contents" role="navigation">
+          <h2 class="govuk-prototype-kit-common-templates-contents-list__title">
+            Contents
+          </h2>
+          <ol class="govuk-prototype-kit-common-templates-contents-list__list">
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#identity-solutions-comparison">
+                Identity Solutions Comparison - Scottish Government
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#ux-improvements">
+                UX Improvements - NHS Scotland
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#merit-badge-tracker">
+                Merit Badge Tracker - Rebel Badge Club
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#personal-case-study">
+                Personal Case Study - The Protector Trial
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#ar-vr-app">
+                AR VR APP - Innovate Grant
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#parents-hospital-diary">
+                Parents Hospital Diary - The Grand Appeal
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#young-persons-hospital-journal">
+                Young Persons Hospital Journal - Bristol Children’s Hospital
+              </a>
+            </li>
+            <li class="govuk-prototype-kit-common-templates-contents-list__list-item govuk-prototype-kit-common-templates-contents-list__list-item--dashed">
+              <a href="#ux-engineer">
+                UX Engineer - Iternal
+              </a>
+            </li>
+          </ol>
+        </nav>
+      </aside>
+
+    </div>
+  </div>
+
+  <div class="govuk-grid-row govuk-!-margin-top-6">
+    <div class="govuk-grid-column-two-thirds govuk-prototype-kit-common-templates-mainstream-guide-body">
+      
+      <h2 id="identity-solutions-comparison" class="govuk-heading-m govuk-!-margin-top-6">
+        Identity Solutions Comparison - Scottish Government
+      </h2>
+      <p class="govuk-body">This project evaluates two identity verification solutions to assist the Scottish Government in making an informed decision on selecting the most suitable identity management solution for Scotland’s Digital Front Door (DFD).</p>
+      <a class="govuk-link" href="https://www.canva.com/design/DAGD-qYa444/SS5NoJ6Kc4QlV_wJRPBPow/view?utm_content=DAGD-qYa444&utm_campaign=designshare&utm_medium=link&utm_source=editor">See Project</a>
+
+      <h2 id="ux-improvements" class="govuk-heading-m govuk-!-margin-top-6">
+        UX Improvements - NHS Scotland
+      </h2>
+      <p class="govuk-body">In this user research case study, the focus was on enhancing the FNP Navigation Page for accessing operational and new outcome reports. The study involved six users familiar with the FNP website, employing both unmoderated lookback studies and one-on-one Teams interviews to explore user experience, navigation, and satisfaction.</p>
+      <a class="govuk-link" href="https://www.canva.com/design/DAF-qXJPRCM/A8vD4RPbWkmYBYNugNpI_g/view?utm_content=DAF-qXJPRCM&utm_campaign=designshare&utm_medium=link&utm_source=editor">See Project</a>
+
+      <h2 id="merit-badge-tracker" class="govuk-heading-m govuk-!-margin-top-6">
+        Merit Badge Tracker - Rebel Badge Club
+      </h2>
+      <p class="govuk-body">To revolutionise the way members of the Rebel Badge Club track their achievements by bringing the Badge Book to life through a cutting-edge mobile application.</p>
+      <a class="govuk-link" href="https://www.beautiful.ai/player/-NNcX4_64Jk7JBsqvm1V/Rebel-Badge-Club-Iternal">See Project</a>
+
+      <h2 id="personal-case-study" class="govuk-heading-m govuk-!-margin-top-6">
+        Personal Case Study - The Protector Trial
+      </h2>
+      <p class="govuk-body">A trip to the hospital wasn’t just about my own health journey; it sparked a passion to improve the patient experience for everyone within the NHS. Witnessing first hand areas where efficiency could be enhanced, I embarked on a mission to explore solutions.</p>
+      <a class="govuk-link" href="https://www.canva.com/design/DAGAUd1QdLQ/-EC-b7ORousVicExMaJjEQ/view?utm_content=DAGAUd1QdLQ&utm_campaign=designshare&utm_medium=link&utm_source=editor">See Project</a>
+
+      <h2 id="ar-vr-app" class="govuk-heading-m govuk-!-margin-top-6">
+        AR VR APP - Innovate Grant
+      </h2>
+      <p class="govuk-body">The Pagemaster project combined augmented reality (AR) and virtual reality (VR) with storytelling, creating an interactive app for children, especially those in hospitals. It enabled users to craft stories and bring them to life in a 3D environment, using a GPT-like language model. This fusion of technology and creativity not only entertained but also educated, offering a unique outlet for children’s imagination and supporting their emotional wellbeing during hospital stays.</p>
+      <a class="govuk-link" href="https://www.figma.com/proto/yRP8zU4npuuZydiPN0AiLB/Pagemaster-Story-App?type=design&node-id=229-1842&t=PISYenXbizTYXb4k-1&scaling=contain&page-id=0%3A1&starting-point-node-id=229%3A1842">See Project</a>
+
+      <h2 id="parents-hospital-diary" class="govuk-heading-m govuk-!-margin-top-6">
+        Parents Hospital Diary - The Grand Appeal
+      </h2>
+      <p class="govuk-body">To improve the way parents with children in the hospital track updates and share them with friends and family by creating an online diary.</p>
+      <a class="govuk-link" href="https://www.beautiful.ai/player/-Nq7_rCGHkyQUNb6tZf4/Grand-Appeal">See Project</a>
+
+      <h2 id="young-persons-hospital-journal" class="govuk-heading-m govuk-!-margin-top-6">
+        Young Persons Hospital Journal - Bristol Children’s Hospital
+      </h2>
+      <p class="govuk-body">Our mission was to enhance the wellbeing of young people undergoing medical treatment by providing them with a journal platform. This platform will serve as a space for them to reflect on and document their hospital journey. The platform will also allow for easy sharing of these entries with loved ones, promoting a sense of connectedness and support even from a distance.</p>
+      <a class="govuk-link" href="https://www.figma.com/proto/FDM8KSnAouiy4kBjD4yQ62/BCH---Designs-for-Young-Persons-Diary-and-Prototype?node-id=756-36950&scaling=contain&page-id=756%3A25853&starting-point-node-id=756%3A36950&show-proto-sidebar=1&t=tEOU3pjfrfF6d5BB-1">See Project</a>
+
+      <h2 id="ux-engineer" class="govuk-heading-m govuk-!-margin-top-6">
+        UX Engineer - Iternal
+      </h2>
+      <p class="govuk-body">During my time at Iternal, I worked on various projects, starting as a front-end dev using React and React native. I later took on UX design responsibilities, leading to 2 contracts with the NHS, Rebel Badge Club, and funding for the Innovate grant.</p>
+      <p class="govuk-body">This video shows some of the projects I designed during my last year with them.</p>
+      <a class="govuk-link" href="https://www.youtube.com/watch?v=KUXzwLtMi4o">Watch Video</a>
+
+      <p></p>
+      <h2 class="govuk-heading-l">Get in Touch</h2>
+            <p class="govuk-body">Interested in working together? I offer consultations and training sessions tailored to your needs.</p>
+            
+            <a class="govuk-button" href="/contact">Book a Consultation</a>
+        
+            <p class="govuk-body">
+              <a class="govuk-link" href="mailto:beckifloyd@gmail.com?subject=Contact%20Becki%20Floyd">Email: beckifloyd@gmail.com</a>
+            </p>
+            <p class="govuk-body">
+              <a class="govuk-link" href="https://www.linkedin.com/in/nass84/" target="_blank">LinkedIn</a>
+            </p>
+            <p class="govuk-body">
+              <a class="govuk-link" href="https://twitter.com/boredinbrum" target="_blank">Twitter</a>
+            </p>
+      
+        </nav>
+      </aside>
+
+    </div>
+  </div>
+
+{% endblock %}

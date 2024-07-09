@@ -1,0 +1,66 @@
+{% extends "layouts/main.html" %}
+
+{% block pageTitle %}
+  UX Design Consultation – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+
+  {{ govukBreadcrumbs({
+    items: [
+      {
+        text: "Home",
+        href: "/index"
+      },
+      {
+        text: "UX Design",
+        href: "#"
+      }
+    ]
+  }) }}
+
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">UX Design Consultation</h1>
+      <p class="govuk-body">Welcome to the UX Design Consultation page. Here, you can learn more about the consultation services I offer, how I can help you with your UX design needs, and how to get in touch to book a session.</p>
+      
+      <h2 class="govuk-heading-l">What I Offer</h2>
+      <p class="govuk-body">As a UX designer, I offer a range of consultation services tailored to meet your specific needs. Whether you're looking to improve an existing product or design a new one from scratch, I can provide the insights and expertise you need to succeed.</p>
+
+      <ul class="govuk-list govuk-list--bullet">
+        <li>User Research and Analysis</li>
+        <li>Wireframing and Prototyping</li>
+        <li>Usability Testing</li>
+        <li>Interaction Design</li>
+        <li>UI Design</li>
+      </ul>
+
+      <h2 class="govuk-heading-l">How to Book a Consultation</h2>
+      <p class="govuk-body">To book a consultation, please contact me with details about your project and what you're looking to achieve. I will get back to you promptly to discuss your needs and schedule a session.</p>
+
+      <h2 class="govuk-heading-l">Get in Touch</h2>
+      <p class="govuk-body">Interested in working together? I offer consultations and training sessions tailored to your needs.</p>
+      
+      <a class="govuk-button" href="/contact">Book a Consultation</a>
+  
+      <p class="govuk-body">
+        <a class="govuk-link" href="mailto:beckifloyd@gmail.com?subject=Contact%20Becki%20Floyd">Email: beckifloyd@gmail.com</a>
+      </p>
+      <p class="govuk-body">
+        <a class="govuk-link" href="https://www.linkedin.com/in/nass84/" target="_blank">LinkedIn</a>
+      </p>
+      <p class="govuk-body">
+        <a class="govuk-link" href="https://twitter.com/boredinbrum" target="_blank">Twitter</a>
+      </p>
+
+ 
+
+    </div>
+  </div>
+
+{% endblock %}
